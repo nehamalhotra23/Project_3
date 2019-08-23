@@ -30,3 +30,8 @@ function boopTobeep(userInput) {
   return birdOutput;
 }
 boopTobeep();
+
+function autoRefreshPage() {
+  window.location = window.location.href;
+}
+setInterval('autoRefreshPage()', 5000);
