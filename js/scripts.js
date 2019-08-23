@@ -1,4 +1,3 @@
-
 //User Interface Logic
 
 $(document).ready(function() {
@@ -6,32 +5,28 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("input#numBer").val());
     var results = boopTobeep(userInput);
-    $("#answer").append("<li>" + userInput + "</li>");
     if (userInput < 0) {
       alert('please enter a positive number');
     } else {
-      boopTobeep(userInput);
+      display = boopTobeep(userInput);
     }
+    $("#answers").text(display);
   });
-
 });
 
 //Business Logic
 
 function boopTobeep(userInput) {
   var birdOutput = [];
-for (var i = 0; i <= userInput; i++) {
-  if ([i].includes(1)) {
-    birdOutput.push("Beep");
-
-  } else if ([i].includes(2)) {
-    birdOutput.push("Boop!");
-  } else if ([i].includes(3)) {
-    birdOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
-  } else {
-
+  for (var i = 0; i <= userInput; i++) {
+    if ([i].includes(1)) {
+      birdOutput.push("Beep");
+    } else if ([i].includes(2)) {
+      birdOutput.push("Boop!");
+    } else if ([i].includes(3)) {
+      birdOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    }
   }
-
-}
+  return birdOutput;
 }
 boopTobeep();

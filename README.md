@@ -7,10 +7,10 @@
 ## Description
 
 _1. If User type a number that contain 1, It will be replaced by "Beep!".
-  Example Input: 2
-  Example Output: 0, 1, Beep!, Boop!.
+Example Input: 2
+Example Output: 0, 1, Beep!, Boop!.
 
-2. For any number in input that contains the digit 3, that entire number will be replaced with the phrase "I'm sorry, Dave. I'm afraid I can't do that."
+2.For any number in input that contains the digit 3, that entire number will be replaced with the phrase "I'm sorry, Dave. I'm afraid I can't do that."
 Example input: 3
 Example output: I'm sorry, Dave, I'm afraid I can't do that.
 
