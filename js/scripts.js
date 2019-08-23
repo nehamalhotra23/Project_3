@@ -24,7 +24,11 @@ function boopTobeep(userInput) {
     } else if ([i].includes(2)) {
       birdOutput.push("Boop!");
     } else if ([i].includes(3)) {
-      birdOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
+      birdOutput.push("I'm sorry, Dave. I'm afraid I can't do that");
+    } else if ([i].includes(4)) {
+      birdOutput.push("4");
+    } else if ([i].includes(5)) {
+      birdOutput.push("5");
     }
   }
   return birdOutput;
@@ -34,4 +38,4 @@ boopTobeep();
 function autoRefreshPage() {
   window.location = window.location.href;
 }
-setInterval('autoRefreshPage()', 6000);
+setInterval('autoRefreshPage()', 6800);
