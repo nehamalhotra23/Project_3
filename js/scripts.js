@@ -18,7 +18,9 @@ $(document).ready(function() {
 function boopTobeep(userInput) {
   var birdOutput = [];
   for (var i = 0; i <= userInput; i++) {
-    if ([i].includes(1)) {
+    if ([i].includes(0)) {
+      birdOutput.push("0");
+    } else if ([i].includes(1)) {
       birdOutput.push("Beep");
     } else if ([i].includes(2)) {
       birdOutput.push("Boop!");
