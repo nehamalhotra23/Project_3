@@ -4,7 +4,6 @@ $(document).ready(function() {
   $(".formOne").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("input#numBer").val());
-    var results = boopTobeep(userInput);
     if (userInput < 0) {
       alert('please enter a positive number');
     } else {
