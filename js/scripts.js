@@ -39,4 +39,4 @@ boopTobeep();
 function autoRefreshPage() {
   window.location = window.location.href;
 }
-setInterval('autoRefreshPage()', 6800);
+setInterval('autoRefreshPage()', 7000);

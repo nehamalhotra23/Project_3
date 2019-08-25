@@ -1,8 +1,8 @@
 # _Beep Boop_
 
-#### _It will return string when user type numbers, 08-23-2019_
+#### _This Game will return string when user type numbers, 08-23-2019_
 
-#### By _**Neha Malhotra*_
+#### By _*Neha Malhotra*_
 
 ## Description
 * _If User type a number which contains a negative number. A alert will appear "Please type a positive number._
