@@ -25,7 +25,7 @@ function boopTobeep(userInput) {
     } else if (inputString.includes("3")) {
       birdOutput.push("I'm sorry, Dave. I'm afraid I can't do that");
     }  else {
-      birdOutput.push(inputString);
+      birdOutput.push(i);
     }
 
 
