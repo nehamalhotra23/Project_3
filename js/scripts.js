@@ -3,8 +3,8 @@ $(document).ready(function() {
   $(".formOne").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("input#numBer").val());
-    if (userInput < 0) {
-      alert('please enter a positive number');
+    if (userInput < 0 || userInput > 50) {
+      alert('please enter a positive number below 50');
     } else {
       display = boopTobeep(userInput);
     }
